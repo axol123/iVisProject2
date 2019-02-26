@@ -20,9 +20,18 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>project 2</title>
 </head>
+<div>Background</div>
+<p>I wanted to see what relations exist between the different virtues from the vws survey with regards to 30 different countries and 9 different virtues for children. For example if a country values independene highly, do they also value the ability to work hard highly? In order to examine this I represent the answers to the vws as parallel coordinates where one axis represents the number of people that mentioned that the virtue is important. In addition I also wanted to see whether any such patterns that can be observed recently also hold previously. Thus my visualization includes the ability to filter the data per year(note that not all countries have information available for every year). Below I will describe two different discovery processes that try to find such patterns</p>
+<div>Discovery Process 1</div>
+<p>I first begin with the approach of trying to answer a predefined question i.e. "Does the fact that a country values independence highly imply that the country also value hard work highly?". When the visualization loads I am given the data for year 2014. Since I am interested in the relation between independence  and hard work I move those axes to the right. Immediately I can see that south africa is at the top for both independence and hard work. I also have the ability to filter for high values of these axes by clicking and dragging the cursor along them respectively. From this I get the insight that China also seems to fulfill the expected pattern while Japan seems not to. In order to get more conclusive results and also insight into whether the pattern can be observed historically I filter for the different years and perform the same test. Doing this I notice that for every year the majority of the countries that value independence also value hard work highly however there are outliers. Thus the results of the discovery process was the answer that it is likely that a country that values independence also values hard work however there are exceptions. It can also be concluded that this pattern holds historically</p>
+<div>Discovery Process 2</div>
+<p>For the second Discovery process I wanted to see if any pattern can be observed without a prior question or intuition. Immediately when the visualization starts for the year 2014 such a pattern can be observed by examining the trends of the lines with regards to patterns. For example in 2014 countries that value thrift seem to not value religousness. When this is examined historically such as in discovery process one there are clear outliers such as turkey where both thrift and religousness are valued highly. However in general even historically this pattern seems to hold. Thus the result of this discovery process is the insight that countries that value thrift generally don't value religousness.</p>
+<div>Learning</div>
+<p>With regards to the discovery processes I learned two new patterns from my visualization of the vws data. With regards to my own visualization skills I further developed my programming skills with regards to d3. I have also learned and thought of ways to further improve this visualization such as scaling the axis in order to more easily interpret patterns. It could also be improved by adding the possiblity for different types of discovery processes by visualizing the developments of these values for each country through time when for clicking on a country for example.</p>
 <body>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
 	<script type="text/javascript" src="index.js"></script>
+
 	
 </body>
 </html>

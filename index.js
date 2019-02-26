@@ -296,6 +296,7 @@ chart = draw("2014");
 
 
 
+
 //window.location.reload(true)
 
 
